@@ -1,31 +1,47 @@
-# Hackintosh-12700KF-B660M-MORTAR-6600XT
+# Hackintosh-12700-B660M D4 WIFI MORTAR-RX560
 
-适用于 12700KF + B660M迫击炮 DDR4 + 6600XT 黑苹果引导文件
+适用于 12700 + B660M迫击炮 WIFI DDR4 + AMD RX560 黑苹果引导文件
 
-基于 OpenCore 0.7.9 版本，机型 MacPro 7,1，系统 MacOS 12.3
+基于 OpenCore 0.8.0 版本，机型 MacPro 7,1，系统 MacOS 12.5
 
 本 EFI 参考其他基于 12代 引导与查阅资料，去除不必要的驱动并更新到最新版本
 
-USB定制在15个端口内，保留内置 AX201 蓝牙与内置 JUSB-1 接口
+本人也是小白，摸石头过河，仅供参考。希望大家有优化的能同步回传共享指导我，感谢！
 
 
 # 本机配置
 
-| 配置        | 型号                                 |
-|-----------|------------------------------------|
-| CPU       | intel i7 12700KF                   |
-| 主板        | MSI MAG B660M MORTAR WiF DDR4      |
-| 显卡        | 蓝宝石 AMD Radeon RX 6600XT 8G OC 超白金 |
-| 内存        | 海盗船 3200MHz 16G * 2                |
-| SSD       | 铠侠 RC20 1T NVME SSD                |
-| 机箱        | 屌丝伯 D30 前面板 1USB 1 TYPE-C(USB转)    |
-| 电源        | 鑫谷750w ATX                         |
-| CPU 风扇    | 利民 PA120 SE                        |
-| WiFi + 蓝牙 | BCM94360CD (PCI+USB转接卡)            |
+| 配置        | 型号                                                        |
+| ----------- | ----------------------------------------------------------- |
+| CPU         | 12th Gen Intel Core i7-12700                                |
+| 主板        | MSI MAG B660M MORTAR WiFi DDR4                              |
+| 显卡        | AMD Radeon RX 560 Series ( 2 GB / 蓝宝石 )                  |
+| 内存        | 32 GB ( 海盗船复仇者 DDR4 3200MHz 16GB x 2 )                |
+| SSD         | 西数 WDS100T1X0E-00AFY0 (黑盘 SN850) (固态硬盘) 1TB --MacOS |
+|             | 西数 WD_BLACK SN770 500GB (固态硬盘) --Windows11            |
+| 机箱        | 九州风神 玄冰40 3F                                          |
+| 电源        | 鑫谷 AN750 750W                                             |
+| CPU 风扇    | 利民 PA120 SE 塔式                                          |
+| WiFi + 蓝牙 | 英特尔 Wi-Fi 6E AX211 160MHz                                |
+| 声卡        | 瑞昱  @ 英特尔 High Definition Audio 控制器                 |
 
 
 # 使用情况
-cpu正常，节能三项，睡眠正常，唤醒正常，usb2/3正常，声卡正常，wifi正常(禁用自带蓝牙和网卡)
+CPU：正常。Geekbench跑分测试，Single-Core Score：1847，Multi-Core Score：12293。
+
+WiFi：正常
+
+USB2/3：正常
+
+声卡：正常
+
+节能三项：待测试
+
+睡眠：待验证
+
+唤醒：待验证
+
+
 
 # 避坑指南
 
@@ -38,7 +54,9 @@ cpu正常，节能三项，睡眠正常，唤醒正常，usb2/3正常，声卡�
 
 # 其他说明
 
-如果需要通过 OC 引导 Windows 请清除配置信息： Config—Misc—Security—scanpolicy 改为 0 
+~~如果需要通过 OC 引导 Windows 请清除配置信息： Config—Misc—Security—scanpolicy 改为 0~~ 
+
+已设置OC引导Windows（我两块SSD盘分别安装MacOS与Windows11）
 
 
 # BIOS 配置
@@ -65,6 +83,19 @@ SR-IOV Support
 
 电源 / err ready
 
+详细可参考：[B660M 迫击炮主板 BIOS设置](https://heipg.cn/tutorial/b660m-install-macos.html#BIOS-%E8%AE%BE%E7%BD%AE)
+
+
+
+
+
+## 参考资料
+
+[微星 MAG B660M MORTAR 实装 macOS Big Sur 11.6.7/Monterey 12.4 经验分享](https://heipg.cn/tutorial/b660m-install-macos.html)
+
+[国光的黑苹果安装教程](https://apple.sqlsec.com/)
+
+
 
 # 更新记录
 
@@ -86,5 +117,4 @@ SR-IOV Support
 2022-03-25
 
 基础版本，基于 OC 0.7.9
-
 
