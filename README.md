@@ -31,6 +31,8 @@
 # 使用情况
 CPU：正常。Geekbench跑分测试，Single-Core Score：1847，Multi-Core Score：12293。
 
+显卡：正常（免驱）
+
 WiFi：正常
 
 USB2/3：正常
@@ -92,7 +94,7 @@ Re-Size BAR Support
 
 SR-IOV Support
 
-电源 / err ready
+电源 / erp ready
 
 详细可参考：[B660M 迫击炮主板 BIOS设置](https://heipg.cn/tutorial/b660m-install-macos.html#BIOS-%E8%AE%BE%E7%BD%AE)
 
@@ -113,6 +115,7 @@ SR-IOV Support
 2022-07-22 
 
 * 升级OpenCore至0.8.2，更新驱动到最新版本
+* 添加OpenCore引导页面Heikintosh主题
 
 2022-04-20 
 
