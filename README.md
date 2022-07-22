@@ -1,6 +1,8 @@
 # Hackintosh-12700-B660M D4 WIFI MORTAR-RX560 EFI
 
-适用于 12700 + B660M迫击炮 WIFI DDR4 + AMD RX560 黑苹果引导文件
+![](https://cdn.jsdelivr.net/gh/liutf/img-bed/img/20220722230937.png)
+
+适用于 12700 + B660M迫击炮 WIFI DDR4 + AMD RX560 EFI 黑苹果引导文件
 
 基于 OpenCore 引导，机型 MacPro 7,1，系统 MacOS 12.5
 
