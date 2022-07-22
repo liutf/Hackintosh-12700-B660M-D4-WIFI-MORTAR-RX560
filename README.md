@@ -41,6 +41,13 @@ USB2/3：正常
 
 唤醒：待验证
 
+<img width="1245" alt="image" src="https://user-images.githubusercontent.com/14069370/180410136-9150f61d-79f5-45b8-b468-5bfb7de7d1f1.png">
+
+![image](https://user-images.githubusercontent.com/14069370/180410161-1af4aff5-353c-43b2-8a37-f89ea2a3b9d7.png)
+
+![image](https://user-images.githubusercontent.com/14069370/180410175-eecce5da-d0a4-4d5d-9bdf-1ea1bfea74a5.png)
+
+
 
 
 # 避坑指南
