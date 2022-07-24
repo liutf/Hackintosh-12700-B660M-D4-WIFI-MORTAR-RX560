@@ -35,11 +35,11 @@ CPU：正常。Geekbench跑分测试，Single-Core Score：1847，Multi-Core Sco
 
 WiFi：正常
 
+蓝牙：正常
+
 USB2/3：正常
 
 声卡：正常
-
-蓝牙：驱动成功，不稳定，待完善
 
 节能三项：待测试
 
@@ -52,6 +52,14 @@ USB2/3：正常
 ![image](https://user-images.githubusercontent.com/14069370/180410161-1af4aff5-353c-43b2-8a37-f89ea2a3b9d7.png)
 
 ![image](https://user-images.githubusercontent.com/14069370/180410175-eecce5da-d0a4-4d5d-9bdf-1ea1bfea74a5.png)
+
+![image-20220724075018415](https://cdn.jsdelivr.net/gh/liutf/img-bed/img/image-20220724075018415.png)
+
+![image-20220724074823912](https://cdn.jsdelivr.net/gh/liutf/img-bed/img/image-20220724074823912.png)
+
+
+
+![image-20220724074944859](https://cdn.jsdelivr.net/gh/liutf/img-bed/img/image-20220724074944859.png)
 
 
 
