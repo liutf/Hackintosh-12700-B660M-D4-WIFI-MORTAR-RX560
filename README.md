@@ -6,26 +6,26 @@
 
 基于 OpenCore 引导，机型 MacPro 7,1，系统 MacOS 12.5
 
-本 EFI 参考其他基于 12代 引导与查阅资料，去除不必要的驱动并更新到最新版本
+本 EFI 参考其他基于 12代 引导与查阅资料，去除不必要的驱动并更新到最新版本，大家请自行更换三码
 
 本人也是小白，摸石头过河，仅供参考。希望大家有优化的能同步回传共享指导我，感谢！
 
 
 # 本机配置
 
-| 配置        | 型号                                                        |
-| ----------- | ----------------------------------------------------------- |
-| CPU         | 12th Gen Intel Core i7-12700                                |
-| 主板        | MSI MAG B660M MORTAR WiFi DDR4                              |
-| 显卡        | AMD Radeon RX 560 Series ( 2 GB / 蓝宝石 )                  |
-| 内存        | 32 GB ( 海盗船复仇者 DDR4 3200MHz 16GB x 2 )                |
-| SSD         | 西数 WDS100T1X0E-00AFY0 (黑盘 SN850) (固态硬盘) 1TB --MacOS |
-|             | 西数 WD_BLACK SN770 500GB (固态硬盘) --Windows11            |
-| 机箱        | 九州风神 玄冰40 3F                                          |
-| 电源        | 鑫谷 AN750 750W                                             |
-| CPU 风扇    | 利民 PA120 SE 塔式                                          |
-| WiFi + 蓝牙 | 英特尔 Wi-Fi 6E AX211 160MHz                                |
-| 声卡        | 瑞昱  @ 英特尔 High Definition Audio 控制器                 |
+| 配置        | 型号                                                         |
+| ----------- | ------------------------------------------------------------ |
+| CPU         | 12th Gen Intel Core i7-12700                                 |
+| 主板        | MSI MAG B660M MORTAR WiFi DDR4                               |
+| 显卡        | AMD Radeon RX 560 Series ( 2 GB / 蓝宝石 )                   |
+| 内存        | 32 GB ( 海盗船复仇者 DDR4 3200MHz 16GB x 2 )                 |
+| SSD         | 西数 WDS100T1X0E-00AFY0 (黑盘 SN850) (固态硬盘) 1TB --MacOS12.5 |
+|             | 西数 WD_BLACK SN770 500GB (固态硬盘) --Windows11             |
+| 机箱        | 九州风神 玄冰40 3F                                           |
+| 电源        | 鑫谷 AN750 750W                                              |
+| CPU 风扇    | 利民 PA120 SE 塔式                                           |
+| WiFi + 蓝牙 | 英特尔 Wi-Fi 6E AX211 160MHz                                 |
+| 声卡        | 瑞昱  @ 英特尔 High Definition Audio 控制器                  |
 
 
 # 使用情况
@@ -41,11 +41,11 @@ USB2/3：正常
 
 声卡：正常
 
-节能三项：待测试
+节能三项：正常
 
-睡眠：待验证
+睡眠：正常
 
-唤醒：待验证
+唤醒：正常
 
 <img width="1245" alt="image" src="https://user-images.githubusercontent.com/14069370/180410136-9150f61d-79f5-45b8-b468-5bfb7de7d1f1.png">
 
@@ -102,7 +102,7 @@ Re-Size BAR Support
 
 SR-IOV Support
 
-电源 / erp ready
+电源 / ERP ready
 
 详细可参考：[B660M 迫击炮主板 BIOS设置](https://heipg.cn/tutorial/b660m-install-macos.html#BIOS-%E8%AE%BE%E7%BD%AE)
 
@@ -119,6 +119,12 @@ SR-IOV Support
 
 
 # 更新记录
+
+2022-07-24
+
+* USB定制
+* 睡眠问题修复
+* SetApfsTrimTimeout置为-1
 
 2022-07-22 
 
