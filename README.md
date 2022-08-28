@@ -107,8 +107,8 @@ SR-IOV Support
 详细可参考：[B660M 迫击炮主板 BIOS设置](https://heipg.cn/tutorial/b660m-install-macos.html#BIOS-%E8%AE%BE%E7%BD%AE)
 
 
-
-
+## 远景论坛讨论
+[EFI 分享-12700-RX560-微星迫击炮B660M WIFI D4-OC0.8.2](https://bbs.pcbeta.com/viewthread-1939602-1-1.html)
 
 ## 参考资料
 
