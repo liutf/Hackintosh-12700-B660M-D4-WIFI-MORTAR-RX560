@@ -82,29 +82,8 @@ USB2/3：正常
 
 # BIOS 配置
 
-本引导适用于 B660M 迫击炮主板，主板BIOS需一下设置
-
-
-### 禁用：
-Onboard CNVi Module Control-Disable Integrated
-
-快速开机
-
-Intel VT-D
-
-CFG锁定
-
-Speed Select Technology
-
-
-### 开启：
-Re-Size BAR Support
-
-SR-IOV Support
-
-电源 / ERP ready
-
-详细可参考：[B660M 迫击炮主板 BIOS设置](https://heipg.cn/tutorial/b660m-install-macos.html#BIOS-%E8%AE%BE%E7%BD%AE)
+本引导适用于 B660M 迫击炮主板，必须先设置主板BIOS。
+设置参考：[B660M 迫击炮主板 BIOS设置](https://heipg.cn/tutorial/b660m-install-macos.html#BIOS-%E8%AE%BE%E7%BD%AE)
 
 
 ## 远景论坛讨论
